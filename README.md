@@ -52,12 +52,7 @@ Phishing websites mimic legitimate websites to trick users into sharing sensitiv
 ## Intall Dependencies
 pip install -r requirements.txt
 
-## 📂 Dataset Sources
-
-- `1.Benign_list_big_final.csv` – Legitimate URLs
-- `2.online-valid.csv` – Verified phishing URLs
-- `5.urldata.csv` – Combined dataset after cleaning and preprocessing
-
+---
 ## Tech Stack
 
 | Component                        | Use                      |
@@ -70,5 +65,7 @@ pip install -r requirements.txt
 | Pickle                           | Model Serialization      |
 | Pandas / NumPy                   | Data Preprocessing       |
 | BeautifulSoup / Requests / Whois | URL Metadata Analysis    |
+
+---
 
 Dataset credit: shreyagopal/Phishing-Website-Detection
