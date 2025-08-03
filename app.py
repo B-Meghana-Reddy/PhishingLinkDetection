@@ -10,7 +10,9 @@ import datetime
 import pandas as pd
 
 # Load trained model
-model = pickle.load(open("Stacking.pkl", "rb"))  # change path if needed
+import os
+model_path = os.path.join(os.path.dirname(__file__), "Stacking.pkl")
+model = pickle.load(open(model_path, "rb"))
 
 # Extract features from URL
 def featureExtraction(url):
